@@ -1,0 +1,43 @@
+
+:root {
+    --primaryfont: orange;
+    --background: dimgrey;
+    --hover: chocolate;
+}
+
+body {
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    background-color: var(--background);
+}
+
+.aboutme {
+    padding: 2%;
+}
+
+h2 {
+    font-size: 200%;
+    color: var(--primaryfont);
+}
+
+p {
+    float: inline-start;
+    padding: 10px;
+}
+
+#canoe {
+    height: 300px;
+    width: auto;
+    float: left;
+    box-shadow: var(--primaryfont);
+    padding: 0 2% 0 0;
+}
+
+/* @media only screen and (max-width: 600px) {
+    #canoe,
+    #screenshot {
+        width: 95%;
+        object-fit: contain;
+        padding: 2%;
+        justify-content: center;
+        align-items: center;
+    } */

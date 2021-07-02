@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px 0 20px;
+    background-image: linear-gradient( rgba(117, 61, 24, 0.3) 0%, dimgrey);
+    width: 100%;
+}
+
+h1 {
+    font-size: 200%;
+    color: var(--primaryfont);
+    background-color: transparent;
+    padding: 0px 0px 0px 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(0, 0, 0, 0);
+    padding: 0px 20px 0px ;
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+a {
+    font-weight: bold;
+    color: var(--primaryfont);
+    text-decoration: none;
+}
+
+a:hover,
+.contact a:hover {
+    color: var(--hover);
+    text-decoration: none;
+    text-shadow: 1px 1px 6px #383636, 1px 1px 6px #383636;
+}
