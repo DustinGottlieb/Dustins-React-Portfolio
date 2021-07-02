@@ -4,16 +4,21 @@
   --hover: chocolate;
 }
 
-header {
+/* header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   padding: 5px 20px 0 20px;
   background-image: linear-gradient( rgba(117, 61, 24, 0.3) 0%, dimgrey);
-}
+} */
 
 body {
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   background-color: var(--background);
+}
+
+.contact {
+  background-image: linear-gradient( dimgrey, rgba(117, 61, 24, 0.3));
+  width: 100%;
 }

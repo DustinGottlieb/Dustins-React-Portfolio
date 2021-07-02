@@ -18,12 +18,14 @@ h1 {
 nav ul {
     display: flex;
     justify-content: flex-end;
+    flex-direction: row;
     background: rgba(0, 0, 0, 0);
     padding: 0px 20px 0px ;
 }
 
 li {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     padding: 10px;
 }
