@@ -3,8 +3,9 @@ import './Projects.css'
 
 export function Projects() {
     return (
-       <div class="Projects">    
-           <h3 id="projects">Projects</h3>
+        <div>
+           <h3 id="projects">Projects</h3> 
+           <div class="Projects">  
            <div class="project-column NPS-App">
 
            </div>
@@ -18,6 +19,7 @@ export function Projects() {
            </div>
            <div class="project-column PWGenerator">
 
+           </div>
            </div>
            </div>
 
