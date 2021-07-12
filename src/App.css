@@ -6,16 +6,8 @@
 }
 
 * {
-  background-color: dimgrey;
+  background: var(--background);
   font-family: OCR A Std, monospace;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 5px 20px 0 20px;
 }
 
 body {

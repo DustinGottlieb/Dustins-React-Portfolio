@@ -24,7 +24,7 @@ h2 {
 
 p {
     float: inline-start;
-    padding: 10px;
+    padding: 10px 0 150px 0;
 }
 
 #canoe {

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Header } from './Header';
 import { AboutMe } from './AboutMe';
+import { Footer } from './Footer';
 
 
 export function Portfolio() {
@@ -14,6 +15,8 @@ export function Portfolio() {
             <Header setPage={setPage}/>
             {page} 
         </div>
+        <Footer />
         </body>
+
     )
 }
