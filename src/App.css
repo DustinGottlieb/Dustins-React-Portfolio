@@ -1,21 +1,27 @@
 :root {
-  --primaryfont: orange;
-  --background: dimgrey;
-  --hover: chocolate;
+  --primaryfont: #ff124f;
+  --background: #120458;
+  --hover: #ff00a0;
+  height: 100%;
 }
 
-/* header {
+* {
+  background-color: dimgrey;
+  font-family: OCR A Std, monospace;
+}
+
+header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   padding: 5px 20px 0 20px;
-  background-image: linear-gradient( rgba(117, 61, 24, 0.3) 0%, dimgrey);
-} */
+}
 
 body {
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-family: OCR A Std, monospace;
   background-color: var(--background);
+  height: 100%;
 }
 
 .contact {

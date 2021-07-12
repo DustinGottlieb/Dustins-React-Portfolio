@@ -1,11 +1,19 @@
+:root {
+    --primaryfont: #ff124f;
+    --background: #120458;
+    --hover: #ff00a0;
+    --secondary: #7a04eb;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     padding: 5px 0 20px;
-    background-image: linear-gradient( rgba(117, 61, 24, 0.3) 0%, dimgrey);
+    background: linear-gradient(0deg, var(--background) 50%, var(--secondary) 100%);
     width: 100%;
+    font-family: Blippo, fantasy;
 }
 
 h1 {
@@ -15,11 +23,11 @@ h1 {
     padding: 0px 0px 0px 20px;
 }
 
-nav ul {
+nav, nav ul {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    background: rgba(0, 0, 0, 0);
+    background-color: transparent;
     padding: 0px 20px 0px ;
 }
 
@@ -28,17 +36,20 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 10px;
+    background-color: transparent;
 }
 
 a {
     font-weight: bold;
     color: var(--primaryfont);
     text-decoration: none;
+    background-color: transparent;
 }
 
 a:hover,
 .contact a:hover {
     color: var(--hover);
     text-decoration: none;
-    text-shadow: 1px 1px 6px #383636, 1px 1px 6px #383636;
+    text-shadow: 1px 1px 6px #fe75fe, 1px 1px 6px #fe75fe;
+    background-color: transparent;
 }

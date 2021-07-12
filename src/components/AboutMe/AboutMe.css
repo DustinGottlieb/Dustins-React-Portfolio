@@ -1,8 +1,11 @@
-
 :root {
-    --primaryfont: orange;
-    --background: dimgrey;
-    --hover: chocolate;
+    --primaryfont: #ff124f;
+    --background: #120458;
+    --hover: #ff00a0;
+}
+
+* {
+    background: var(--background);
 }
 
 body {
@@ -33,8 +36,7 @@ p {
 }
 
 /* @media only screen and (max-width: 600px) {
-    #canoe,
-    #screenshot {
+    .canoe {
         width: 95%;
         object-fit: contain;
         padding: 2%;

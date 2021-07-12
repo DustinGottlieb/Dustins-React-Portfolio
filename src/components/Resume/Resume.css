@@ -4,7 +4,7 @@
     --hover: #ff00a0;
 }
 
-#contact {
+#resume {
     color: var(--primaryfont);
     font-size: 100%;
     display: flex;
@@ -21,26 +21,10 @@ h5 {
     margin: 0;
 }
 
-.contact a {
+.resume a {
     font-weight: bold;
     color: var(--primaryfont);
     text-decoration: none;
     display: flex;
     justify-content: center;
-}
-
-ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 0px 0px -35px;
-    background-color: var(--background);
-}
-
-h6 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
 }

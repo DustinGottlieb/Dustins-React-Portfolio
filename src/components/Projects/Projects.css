@@ -1,13 +1,13 @@
 :root {
-    --primaryfont: orange;
-    --background: dimgrey;
-    --hover: chocolate;
+    --primaryfont: #ff124f;
+    --background: #120458;
+    --hover: #ff00a0;
+    --secondary: #7a04eb;
 }
 
 .Projects {
     text-align: center;
     display: flex;
-    padding: 10px;
     width: 100%;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .PWGenerator {
-    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/pwgenerator.jpg");
+    background-image: linear-gradient(0deg, rgba(18,4,88,0.75) 0%, rgba(46,46,46,0.75) 100%), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/pwgenerator.jpg");
     background-size: 350px;
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
@@ -54,7 +54,7 @@
 }
 
 .techblog {
-    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/techblog.jpg");
+    background-image: linear-gradient(0deg, rgba(18,4,88,0.75) 0%, rgba(46,46,46,0.75) 100%), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/techblog.jpg");
     background-size: 350px;
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
@@ -62,7 +62,7 @@
 }
 
 .NPS-App {
-    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/npsapp.jpg");
+    background-image: linear-gradient(0deg, rgba(18,4,88,0.75) 0%, rgba(46,46,46,0.75) 100%), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/npsapp.jpg");
     background-size: 350px;
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
@@ -70,7 +70,7 @@
 }
 
 .Daily-Planner {
-    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/dailyplanner.jpg");
+    background-image: linear-gradient(0deg, rgba(18,4,88,0.75) 0%, rgba(46,46,46,0.75) 100%), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/dailyplanner.jpg");
     background-size: 350px;
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
@@ -78,7 +78,7 @@
 }
 
 .musicalmusings {
-    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/musicalmusings.jpg");
+    background-image: linear-gradient(0deg, rgba(18,4,88,0.75) 0%, rgba(46,46,46,0.75) 100%), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/musicalmusings.jpg");
     background-size: 350px;
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
@@ -122,16 +122,12 @@ h3 {
     padding: 10px;
 }
 
-h4,
-h5 {
-    font-size: 200%;
+h4 {
+    font-size: 150%;
     color: var(--primaryfont);
-    text-align: center;
-    padding: 10px;
+    background: transparent;   
 }
 
-#resume {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5em;
+.preview {
+    border: var(--primaryfont);
 }
