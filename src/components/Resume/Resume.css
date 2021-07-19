@@ -22,9 +22,9 @@ h5 {
     margin: 0;
 }
 
-li {
+.skills, ul, li {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 5px;
 }
 
@@ -34,4 +34,13 @@ li {
     text-decoration: none;
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .skills, ul, li {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
 }

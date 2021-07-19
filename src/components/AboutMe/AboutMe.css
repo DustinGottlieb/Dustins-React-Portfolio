@@ -2,6 +2,7 @@
     --primaryfont: #ff124f;
     --background: #120458;
     --hover: #ff00a0;
+    width: 100%;
 }
 
 * {
@@ -35,11 +36,13 @@ p {
     padding: 0 2% 0 0;
 }
 
-/* @media only screen and (max-width: 600px) {
-    .canoe {
+@media only screen and (max-width: 600px) {
+    #canoe {
         width: 95%;
         object-fit: contain;
         padding: 2%;
         justify-content: center;
         align-items: center;
-    } */
+        justify-items: center;
+    }
+}
