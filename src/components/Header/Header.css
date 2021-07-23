@@ -53,3 +53,23 @@ a:hover,
     text-shadow: 1px 1px 6px #fe75fe, 1px 1px 6px #fe75fe;
     background-color: transparent;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 200%;
+        color: var(--primaryfont);
+        background-color: transparent;
+        padding: 0 0 0 0;
+    }
+    header {
+        padding: 0px 0px 0px 0px;
+    }
+     ul, li, #nav {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

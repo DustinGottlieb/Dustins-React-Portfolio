@@ -26,6 +26,7 @@ h5 {
     display: flex;
     flex-direction: column;
     padding: 5px;
+    color: white;
 }
 
 .resume a {
@@ -37,9 +38,10 @@ h5 {
 }
 
 @media only screen and (max-width: 900px) {
-    .skills, ul, li {
+    .skills, ul, nav, header, li {
         display: flex;
         flex-direction: column;
+        align-content: center;
         flex-wrap: wrap;
         padding: 10px;
     }

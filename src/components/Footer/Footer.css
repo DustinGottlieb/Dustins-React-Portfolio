@@ -23,17 +23,15 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px 0px -35px;
     background-color: var(--background);
 }
 
 @media only screen and (max-width: 900px) {
-    ul, li {
+    ul, li, footer {
         width: 100%;
         align-items: center;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding: 10px;
     }
 }

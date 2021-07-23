@@ -19,12 +19,14 @@ input {
     margin: 50px;
     width: 20%;
     height: 20px;
+    color: white;
 }
 textarea {
     display: block;
     margin: 50px;
     width: 80%;
     height: 75px;
+    color: white;
 }
 
 button {
@@ -42,4 +44,16 @@ button:hover {
     text-decoration: none;
     text-shadow: 1px 1px 6px #fe75fe, 1px 1px 6px #fe75fe;
     background-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 200%;
+        color: var(--primaryfont);
+        background-color: transparent;
+        padding: 0px 0px 0px 0px;
+    }
+    header {
+        padding: 0px 0px 0px 0px;
+    }
 }
