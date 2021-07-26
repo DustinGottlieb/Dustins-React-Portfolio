@@ -27,6 +27,7 @@ h2 {
 p {
     float: inline-start;
     padding: 10px 0 150px 0;
+    color: white;
 }
 
 #canoe {
@@ -58,3 +59,4 @@ p {
         flex-wrap: wrap;
     }
 }
+
