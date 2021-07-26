@@ -38,6 +38,8 @@ p {
     margin: 0 2% 0 0;
     transition: all 200ms ease-in;
     filter: hue-rotate(550deg);
+    border: 2px solid var(--primaryfont);
+    border-radius: 15px;
 }
 
 #canoe:hover {
