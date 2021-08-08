@@ -1,8 +1,7 @@
 :root {
-    --primaryfont: #ff124f;
-    --background: #120458;
-    --hover: #ff00a0;
-    --secondary: #7a04eb;
+    --primaryfont: orange;
+    --background: dimgrey;
+    --hover: chocolate;
 }
 
 header {
@@ -11,7 +10,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     padding: 5px 0 20px;
-    background: linear-gradient(0deg, var(--background) 50%, var(--secondary) 100%);
+    background: linear-gradient(0deg, var(--background) 50%, var(--hover) 100%);
     width: 100%;
     font-family: Blippo, fantasy;
 }
@@ -50,7 +49,7 @@ a:hover,
 .contact a:hover {
     color: var(--hover);
     text-decoration: none;
-    text-shadow: 1px 1px 6px #fe75fe, 1px 1px 6px #fe75fe;
+    text-shadow: 1px 1px 6px orange, 1px 1px 6px orange;
     background-color: transparent;
 }
 

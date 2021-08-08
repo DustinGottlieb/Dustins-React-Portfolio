@@ -1,7 +1,7 @@
 :root {
-    --primaryfont: #ff124f;
-    --background: #120458;
-    --hover: #ff00a0;
+    --primaryfont: orange;
+    --background: dimgrey;
+    --hover: chocolate;
 }
 
 #resume {

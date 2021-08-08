@@ -4,31 +4,38 @@ import './Projects.css'
 export function Projects() {
     return (
         <div>
-           <div class="Projects row">
-               <div id="NPS-App" class="card">
-                   <img class="preview" src="https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/npsapp.jpg" alt="National Park Finder Project"></img>
+        <div className="Projects row">
+               <div id="NPS-App" className="card">
+                   <img className="preview" src="https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/npsapp.jpg" alt="Awesome Crap"></img>
+                   <a href="https://secret-savannah-75724.herokuapp.com/">Live Project</a>
+                   <a href="https://github.com/DustinGottlieb/awesome-crap">Github Repository</a>
+           </div>
+           <div className="Projects row">
+               <div id="NPS-App" className="card">
+                   <img className="preview" src="https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/npsapp.jpg" alt="National Park Finder Project"></img>
                    <a href="https://dustingottlieb.github.io/National-Parks-and-Forecast-Finder/">Live Project</a>
                    <a href="https://github.com/DustinGottlieb/National-Parks-and-Forecast-Finder">Github Repository</a>
            </div>
-           <div id="Daily-Planner" class="card">
-                   <img class="preview" src="https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/dailyplanner.jpg" alt="Daily Planner Project"></img>
+           <div id="Daily-Planner" className="card">
+                   <img className="preview" src="https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/dailyplanner.jpg" alt="Daily Planner Project"></img>
                    <a href="https://dustingottlieb.github.io/Dustin-s-Daily-Planner/">Live Project</a>
                    <a href="https://github.com/DustinGottlieb/Dustin-s-Daily-Planner">Github Repository</a>
            </div>
-           <div id="techblog" class="card">
-                   <img class="preview" src="https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/techblog.jpg" alt="Tech Blog Project"></img>
+           <div id="techblog" className="card">
+                   <img className="preview" src="https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/techblog.jpg" alt="Tech Blog Project"></img>
                    <a href="https://dustins-tech-blog.herokuapp.com/">Live Project</a>
                    <a href="https://github.com/DustinGottlieb/Dustins-Tech-Blog">Github Repository</a>
            </div>
-           <div id="musicalmusings" class="card">
-                   <img class="preview" src="https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/musicalmusings.jpg" alt="Musical Musings Project"></img>
+           <div id="musicalmusings" className="card">
+                   <img className="preview" src="https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/musicalmusings.jpg" alt="Musical Musings Project"></img>
                    <a href="https://dustinsmusicalmusings.herokuapp.com/">Live Project</a>
                    <a href="https://github.com/DustinGottlieb/Dustins-Musical-Musings">Github Repository</a>
            </div>
-           <div id="PWGenerator" class="card">
-                   <img class="preview" src="https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/pwgenerator.jpg" alt="Password Generator Project"></img>
+           <div id="PWGenerator" className="card">
+                   <img className="preview" src="https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/pwgenerator.jpg" alt="Password Generator Project"></img>
                    <a href="https://dustingottlieb.github.io/Dustins-Password-Generator/">Live Project</a>
                    <a href="https://github.com/DustinGottlieb/Dustins-Password-Generator">Github Repository</a>
+           </div>
            </div>
            </div>
            </div>

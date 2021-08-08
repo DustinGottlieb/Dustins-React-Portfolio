@@ -3,9 +3,9 @@ import './Resume.css'
 
 export function Resume() {
     return (
-        <div class="Resume">
+        <div className="Resume">
         <h5>Skills</h5>
-        <div class="skills">
+        <div className="skills">
         <ul>
             <li>JavaScript</li>
             <li>Node</li>

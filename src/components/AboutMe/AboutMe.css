@@ -1,7 +1,7 @@
 :root {
-    --primaryfont: #ff124f;
-    --background: #120458;
-    --hover: #ff00a0;
+    --primaryfont: orange;
+    --background: dimgrey;
+    --hover: chocolate;
     width: 100%;
 }
 
@@ -37,14 +37,9 @@ p {
     box-shadow: var(--primaryfont);
     margin: 0 2% 0 0;
     transition: all 200ms ease-in;
-    filter: hue-rotate(550deg);
     border: 2px solid var(--primaryfont);
     border-radius: 15px;
 }
-
-#canoe:hover {
-    filter: grayscale(0) opacity(1);
-  }
 
 @media only screen and (max-width: 600px) {
     #canoe {
